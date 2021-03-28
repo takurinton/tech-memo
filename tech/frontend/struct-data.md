@@ -12,7 +12,7 @@ head:
       content: 構造化データの規格とその仕組みについて
   - - meta
     - name: twitter:description
-      content: J構造化データの規格とその仕組みについて
+      content: 構造化データの規格とその仕組みについて
 ---
 
 # {{ $frontmatter.title }}
