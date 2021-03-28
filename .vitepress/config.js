@@ -56,7 +56,7 @@ module.exports = {
                 link: '/tech/php/index.html'
               },
               {
-                text: 'frontend',
+                text: 'フロントエンド',
                 link: '/tech/frontend/index.html'
               }
             ]
