@@ -1,0 +1,7 @@
+:root {
+    --c-brand: #FF69B4;
+}
+
+.nav-bar-title:hover {
+    color: var(--c-brand);
+}

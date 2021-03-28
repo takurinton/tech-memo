@@ -17,4 +17,4 @@ head:
 
 # {{ $frontmatter.title }}
 
-- [json-ld について](/tech/frontend/json-ld)
+- [JSON-LD について](/tech/frontend/json-ld)
