@@ -18,3 +18,4 @@ head:
 # {{ $frontmatter.title }}
 
 - [構造化データについて](/tech/frontend/struct-data)
+- [preact-iso について](/tech/frontend/preact-iso)
