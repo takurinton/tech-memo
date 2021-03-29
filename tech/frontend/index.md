@@ -19,3 +19,4 @@ head:
 
 - [構造化データについて](/tech/frontend/struct-data)
 - [preact-iso について](/tech/frontend/preact-iso)
+- [recoil について](/tech/frontend/recoil)
