@@ -20,3 +20,4 @@ head:
 - [構造化データについて](/tech/frontend/struct-data)
 - [wmr と preact-iso について](/tech/frontend/preact-iso)
 - [recoil の素振り](/tech/frontend/recoil)
+- [Web Components について](/tech/frontend/web-components)
