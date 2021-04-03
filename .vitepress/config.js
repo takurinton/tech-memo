@@ -58,7 +58,15 @@ module.exports = {
               {
                 text: 'フロントエンド',
                 link: '/tech/frontend/'
-              }
+              },
+              {
+                text: 'インフラ周り',
+                link: '/tech/infrastructure/'
+              },
+              {
+                text: 'Python',
+                link: '/tech/python/'
+              },
             ]
           },
           {
