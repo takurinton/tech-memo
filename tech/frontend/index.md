@@ -21,3 +21,4 @@ head:
 - [wmr と preact-iso について](/tech/frontend/preact-iso)
 - [recoil の素振り](/tech/frontend/recoil)
 - [Web Components について](/tech/frontend/web-components)
+- [credentials を指定した際に注意するべきこと](/tech/frontend/credentials_all)
