@@ -27,7 +27,7 @@ Docker の挙動がおかしかった時の対処法を雑に更新していく
 
 ## 消したい時
 
-### image を消したい
+#### image を消したい
 
 - `docker images` で現在起動中の image を取得できる
 - ```bash
@@ -45,7 +45,7 @@ Docker の挙動がおかしかった時の対処法を雑に更新していく
     ```
 - `docker rmi {IMAGE ID}` で image を削除することができる
 
-### コンテナを消したい
+#### コンテナを消したい
 
 - `docker ps` で現在起動中のコンテナを取得できる
 - ```bash
@@ -62,7 +62,7 @@ Docker の挙動がおかしかった時の対処法を雑に更新していく
 
 コンテナの中に直接入って作業がしたい時があると思うけどそれのメモ。  
 
-### コンテナの起動
+#### コンテナの起動
 
 `-d` オプションをつけて起動する。
 
@@ -75,7 +75,7 @@ Creating frontend ... done
 Creating db       ... done
 ```
 
-### 動いてるサービスの確認
+#### 動いてるサービスの確認
 
 `docker-compose ps`
 
@@ -88,7 +88,7 @@ db          docker-entrypoint.sh mysqld      Up       0.0.0.0:3306->3306/tcp
 frontend    docker-entrypoint.sh npm r ...   Up       0.0.0.0:3306->3000/tcp
 ```
 
-### 中に入る
+#### 中に入る
 
 `docker-compose exec {Service Name} /bin/bash`
 

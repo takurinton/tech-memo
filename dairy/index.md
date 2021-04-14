@@ -17,4 +17,4 @@ head:
 
 # {{ $frontmatter.title }}
 
-- [臨海フリッカー周波数について](/dairy/critical-flicker-frequency)
+- [臨界フリッカー周波数について](/dairy/critical-flicker-frequency)

@@ -50,39 +50,101 @@ module.exports = {
         '/': [
           {
             text: '技術メモ',
+            link: '/tech/', 
             children: [
               {
                 text: 'PHP',
-                link: '/tech/php/'
+                link: '/tech/php/',
+                children: [
+                  {
+                    text: 'isset と empty について',
+                    link: '/tech/php/isset_empty', 
+                  }
+                ]
               },
               {
                 text: 'フロントエンド',
-                link: '/tech/frontend/'
+                link: '/tech/frontend/',
+                children: [
+                  {
+                    text: '構造化データについて',
+                    link: '/tech/frontend/struct-data', 
+                  },
+                  {
+                    text: 'wmr と preact-iso について',
+                    link: '/tech/frontend/preact-iso', 
+                  },
+                  {
+                    text: 'Recoil の素振り',
+                    link: '/tech/frontend/recoil', 
+                  },
+                  {
+                    text: 'Web Components について',
+                    link: '/tech/frontend/web-components', 
+                  },
+                  {
+                    text: 'credentials を指定した際に注意するべきこと',
+                    link: '/tech/frontend/credentials_all', 
+                  },
+                ]
               },
               {
                 text: 'インフラ周り',
-                link: '/tech/infrastructure/'
+                link: '/tech/infrastructure/',
+                children: [
+                  {
+                    text: '挙動が怪しい時',
+                    link: '/tech/infrastructure/watch', 
+                  },
+                ]
               },
               {
                 text: 'Python',
-                link: '/tech/python/'
+                link: '/tech/python/',
+                children: [
+                  {
+                    text: '並行処理と並列処理',
+                    link: '/tech/python/multi', 
+                  }
+                ]
               },
               {
                 text: 'GraphQL',
-                link: '/tech/graphql/'
+                link: '/tech/graphql/',
+                children: [
+                  {
+                    text: 'GraphQL 入門（概念）',
+                    link: '/tech/graphql/concept', 
+                  },
+                  {
+                    text: 'GraphQL 入門（Go）',
+                    link: '/tech/graphql/base_server_go', 
+                  }
+                ]
               },
               {
                 text: 'Real World HTTP',
-                link: '/tech/real-world-http/'
+                link: '/tech/real-world-http/',
+                children: [
+                  {
+                    text: '1章',
+                    link: '/tech/real-world-http/1', 
+                  },
+                  {
+                    text: '2章',
+                    link: '/tech/real-world-http/2', 
+                  }
+                ]
               },
             ]
           },
           {
             text: '日常のメモ',
+            link: '/dairy/',
             children: [
               {
-                text: '日常のメモ',
-                link: '/dairy/'
+                text: '臨界フリッカー周波数について',
+                link: '/dairy/critical-flicker-frequency'
               },
             ]
           }

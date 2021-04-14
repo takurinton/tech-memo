@@ -54,7 +54,7 @@ Web Component を実装する基本的な流れはこのような感じになり
 ディレクトリの構成としてはシンプルで、ルートに `index.js` と `index.html` が存在します。  
 
 
-### index.js 
+#### index.js 
 
 ここでは Web Components の定義を行なっています。  
 `PopUpInfo` コンポーネントでは `shadow` の定義とスタイリング、そしてアタッチをしています。  
@@ -141,7 +141,7 @@ class PopUpInfo extends HTMLElement {
 ```
 
 
-### index.html 
+#### index.html 
 
 次に html ファイルに上で作成した `PopUpInfo` コンポーネントを適用します。
 
@@ -186,7 +186,7 @@ html には上の JS を読み込んでコンポーネントを使用するこ�
 Web Components では既存のタグに `is` 要素をつけて Web Components を渡すこともできます。  
 上と同じような構成の JS と html があるとします。
 
-### index.js
+#### index.js
 
 このような形で作成することができます。文字数をカウントしてくれます。
 
@@ -230,7 +230,7 @@ class WordCount extends HTMLParagraphElement {
 customElements.define('word-count', WordCount, { extends: 'p' });
 ```
 
-### p タグに適用する
+#### p タグに適用する
 
 ```html
 <p is="word-count"></p>
