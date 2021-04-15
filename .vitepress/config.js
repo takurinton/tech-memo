@@ -59,6 +59,9 @@ module.exports = {
                   {
                     text: 'isset と empty について',
                     link: '/tech/php/isset_empty', 
+                  },{
+                    text: 'compact 関数に関して',
+                    link: '/tech/php/compact', 
                   }
                 ]
               },
