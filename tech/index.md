@@ -22,3 +22,4 @@ head:
 - [インフラ周り](/tech/infrastructure/)
 - [GraphQL](/tech/graphql/)
 - [Real World HTTP](/tech/real-world-http/)
+- [機械学習](/tech/ml/)

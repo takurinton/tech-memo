@@ -139,6 +139,16 @@ module.exports = {
                   }
                 ]
               },
+              {
+                text: '機械学習',
+                link: '/tech/ml/',
+                children: [
+                  {
+                    text: '機械学習超入門',
+                    link: '/tech/ml/beginner', 
+                  },
+                ]
+              },
             ]
           },
           {
