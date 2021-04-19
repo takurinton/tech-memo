@@ -200,3 +200,30 @@ export const Post = ({ id }) => {
 ## まとめ
 このようにしてライブラリを使用すれば簡単にリクエストを投げることができることを知りました。  
 また、手を動かさないとわからないことがたくさんあるので(GraphQLもそのパターン)、みなさん手を動かして知識を習得していきましょう。  
+  
+  
+また、もし fetch API などを使用してリクエストを投げたければやり方は複数ありますが以下の方法が便利かもしれません。  
+
+```jsx
+fetch('http://localhost:5500/graphql', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ query: `
+    query {
+      todos {
+        edges {
+          node {
+            completed
+            id
+            text
+          }
+	}
+      }
+    }` 
+  }),
+})
+.then(res => res.json())
+.then(res => console.log(res.data));
+```
+
+fetch API を使用するとこのような形で定義することができます。便利ですね。ただ、大きくなってきたことを想定してスモールサービス化したほうがいいのでその所存です。
