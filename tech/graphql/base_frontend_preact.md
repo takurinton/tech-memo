@@ -114,7 +114,18 @@ query PostsQuery {
 本質ではないので基本的な構成などはコードから理解してください。ここでは `Posts.jsx`、`Post.jsx` についてのみ説明します。  
 
 #### TODO 一覧を取得する
+TODO の一覧を取得するためには query の定義が必要です。ということで先ほど定義した query を使用して書いていきます。  
+  
+```jsx
+const { data, fetching, error } = result
+if (fetching) return <p>Loading...</p>
+if (error) return <p>Oh no... {error.message}</p>
+```
 
+この部分ですが、ドキュメントに記載があった通りに実装しました。一般的な書き方がわからないので有識者の方教えてください。  
+  
+全体は以下のようになります。  
+あまり難しことはしていないので react の hook がわかれば問題ないと言った感じです。
 
 ```jsx
 // pages/Posts.jsx
@@ -150,6 +161,17 @@ export const Posts = () => {
 ```
 #### TODO を取得する
 
+TODO の一覧を取得する際は以下のような形になります。
+この部分で引数を渡すことができます。これはライブラリの使用ではなく GeaphQL の仕様です。覚えておくようにしましょう。  
+  
+```jsx
+const [result] = useQuery({
+    query: PostQuery,
+    variables: { id },
+});
+```
+
+全体のコードは以下のような形になります。
 
 ```jsx
 // pages/Post.jsx
@@ -174,3 +196,7 @@ export const Post = ({ id }) => {
     )
 }
 ```
+
+## まとめ
+このようにしてライブラリを使用すれば簡単にリクエストを投げることができることを知りました。  
+また、手を動かさないとわからないことがたくさんあるので(GraphQLもそのパターン)、みなさん手を動かして知識を習得していきましょう。  
