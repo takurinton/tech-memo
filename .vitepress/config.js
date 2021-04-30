@@ -89,6 +89,10 @@ module.exports = {
                     text: 'credentials を指定した際に注意するべきこと',
                     link: '/tech/frontend/credentials_all', 
                   },
+                  {
+                    text: 'lit-html の素振り',
+                    link: '/tech/frontend/lit-html', 
+                  },
                 ]
               },
               {
