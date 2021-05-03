@@ -24,3 +24,4 @@ head:
 - [credentials を指定した際に注意するべきこと](/tech/frontend/credentials_all)
 - [lit-html の素振り](/tech/frontend/lit-html)
 - [Vitejs について](/tech/frontend/vite)
+- [haunted が良い](/tech/frontend/haunted)

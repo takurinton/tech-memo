@@ -27,6 +27,7 @@ module.exports = {
       nav: [
         { text: 'このサイトについて', link: '/about/' },
         { text: '技術メモ', link: '/tech/' },
+        { text: '日常のメモ', link: '/dairy/' },
         {
           text: '外部リンク',
           items: [
@@ -96,6 +97,10 @@ module.exports = {
                   {
                     text: 'Vitejs について',
                     link: '/tech/frontend/vite', 
+                  },
+                  {
+                    text: 'haunted が良い',
+                    link: '/tech/frontend/haunted', 
                   },
                 ]
               },
