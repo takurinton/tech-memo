@@ -12,7 +12,7 @@ head:
       content: isomorphic な preact で最近注目してるのでまとめる
   - - meta
     - name: twitter:description
-	  content: isomorphic な preact で最近注目してるのでまとめる
+      content: isomorphic な preact で最近注目してるのでまとめる
   - - meta
     - name: og:image
       content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Sawarabi Gothic_70_bold:wmr と preact-iso について/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png

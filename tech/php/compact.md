@@ -12,13 +12,13 @@ head:
       content: 技術メモ | compact 関数って便利だな〜（小並感）って思ったのでメモ
   - - meta
     - name: twitter:description
-	  content: 技術メモ | compact 関数って便利だな〜（小並感）って思ったのでメモ
+      content: 技術メモ | compact 関数って便利だな〜（小並感）って思ったのでメモ
   - - meta
     - name: og:image
-      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Sawarabi Gothic_70_bold:compact 関数について/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
+      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Sawarabi Gothic_70_bold:compact 関数に関して/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
   - - meta
     - name: twitter:image
-      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Sawarabi Gothic_70_bold:Compact 関数について/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
+      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Sawarabi Gothic_70_bold:compact 関数に関して/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
 ---
 
 # {{ $frontmatter.title }}

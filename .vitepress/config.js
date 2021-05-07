@@ -11,11 +11,9 @@ module.exports = {
         ['meta',{ name:"keywords", content:"takurinton 技術メモ"}],
         ['meta',{ name:"og:type", content:"website"}],
         ['meta',{ name:"og:url", content:"https://dev.takurinton.com"}],
-        ['meta',{ name:"og:image", content:"https://www.takurinton.com/me.jpeg"}],
         ['meta',{ name:"twitter:card", content:"summary_large_image"}],
         ['meta',{ name:"twitter:type", content:"website"}],
         ['meta',{ name:"twitter:url", content:"https://dev.takurinton.com"}],
-        ['meta',{ name:"twitter:image", content:"https://www.takurinton.com/me.jpeg"}],
     ],
     themeConfig: {
       repo: 'takurinton/dev',

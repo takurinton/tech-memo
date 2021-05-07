@@ -12,13 +12,13 @@ head:
       content: GraphQL に入門しました。サーバサイドの実装です。Go言語を使用しています。
   - - meta
     - name: twitter:description
-	  content: GraphQL に入門しました。サーバサイドの実装です。Go言語を使用しています。
+      content: GraphQL に入門しました。サーバサイドの実装です。Go言語を使用しています。
   - - meta
     - name: og:image
-      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Sawarabi Gothic_70_bold:GraphQL に入門した（Go)/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
+      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Sawarabi Gothic_70_bold:GraphQL に入門した（Go）/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
   - - meta
     - name: twitter:image
-      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Sawarabi Gothic_70_bold:GraphQL に入門した（Go)/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
+      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Sawarabi Gothic_70_bold:GraphQL に入門した（Go）/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
 ---
 
 # {{ $frontmatter.title }}
