@@ -15,10 +15,11 @@ head:
       content: 技術メモ | フロントエンド
   - - meta
     - name: og:image
-      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Arial_70_bold:フロントエンドの記事一覧/v1620370106/techmemo.png
+      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Arial_70_bold:フロントエンドの記事一覧/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
   - - meta
     - name: twitter:image
-      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Arial_70_bold:フロントエンドの記事一覧/v1620370106/techmemo.png
+      content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Arial_70_bold:フロントエンドの記事一覧/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
+
 ---
 
 # {{ $frontmatter.title }}
