@@ -9,10 +9,10 @@ head:
       content: バンドルツールを作る
   - - meta
     - name: og:description
-      content: GraphQL に入門しました。サーバサイドの実装です。Go言語を使用しています。
+      content: 最近バンドルツールを作った（というか作ってる途中）なのでその様子をメモします。
   - - meta
     - name: twitter:description
-      content: GraphQL に入門しました。サーバサイドの実装です。Go言語を使用しています。
+      content: 最近バンドルツールを作った（というか作ってる途中）なのでその様子をメモします。
   - - meta
     - name: og:image
       content: https://res.cloudinary.com/dtapptgdd/image/upload/w_1000/l_text:Sawarabi Gothic_70_bold:バンドルツールを作る/v1620370500/Screen_Shot_2021-05-07_at_15.54.47_extlvu.png
@@ -26,7 +26,7 @@ head:
 ## こんにちは
 
 どうも、僕です。  
-最近バンドルツールを作った（というか作ってる途中）なのでその様子を記事にします。  
+最近バンドルツールを作った（というか作ってる途中）なのでその様子をメモします。  
   
 まだ作ってる途中なのと、あまりきれいな構成ではないので多目に見てください。  
 ではやっていきます。  
