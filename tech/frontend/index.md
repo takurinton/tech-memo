@@ -33,3 +33,4 @@ head:
 - [Vitejs について](/tech/frontend/vite)
 - [haunted が良い](/tech/frontend/haunted)
 - [ESM について](/tech/frontend/esm)
+- [Blitz について学ぶ](/tech/frontend/blitz)

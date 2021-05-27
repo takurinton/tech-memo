@@ -104,6 +104,10 @@ module.exports = {
                     text: 'ESM について',
                     link: '/tech/frontend/esm', 
                   },
+                  {
+                    text: 'Blitz について学ぶ',
+                    link: '/tech/frontend/blitz', 
+                  },
                 ]
               },
               {
