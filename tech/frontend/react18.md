@@ -54,7 +54,7 @@ ex. )
 ## 面白そうなやつ
 
 
-### New Suspense SSR Architecture in React 18
+#### New Suspense SSR Architecture in React 18
 
 ディスカッションの中に [New Suspense SSR Architecture in React 18](https://github.com/reactwg/react-18/discussions/37) というのがあった。  
 要は SSR をするときのアーキテクチャと hydration についての内容だけど、なんか僕の考えてる規模じゃない。  
@@ -65,7 +65,7 @@ ex. )
 `Suspense` は データ取得をビューレイヤと密結合させないという特性があり、race condition を避け、ローディング状態の表示の設計を容易にするためのライブラリというような位置づけである。  
 上のディスカッションを読めばわかるけど、SSR の設計がすごい深く書いてある。もうエンジニアだけの領域じゃない気がしてきた。UX すげえ。  
 
-### New feature: startTransition
+#### New feature: startTransition
 
 もう一つ、[New feature: startTransition](https://github.com/reactwg/react-18/discussions/41) というのがあった。  
 大画面の更新中でもアプリのレスポンスを維持するのに役立つ API と書いていある。  
