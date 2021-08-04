@@ -25,3 +25,4 @@ head:
 
 - [挙動が怪しい時](/tech/infrastructure/watch)
 - [DB のインデックスについて](/tech/infrastructure/db_index)
+- [playwright 導入時のメモ](/tech/infrastructure/alpine_and_debine-slim.md)

@@ -130,6 +130,10 @@ module.exports = {
                     text: 'DB のインデックスについて',
                     link: '/tech/infrastructure/db_index', 
                   },
+                  {
+                    text: 'Docker で playwright を導入する際のメモ',
+                    link: '/tech/infrastructure/alpine_and_debine-slim', 
+                  },
                 ]
               },
               // {
