@@ -89,7 +89,7 @@ RUN apt-get update && apt-get install -y \
 #### firefox の場合
 
 普通に firefox をインストールしようと思ったけどできなかった。  
-エラーが出る、どうやら glibc がおかしい。ログは後でメモする。a
+エラーが出る、どうやら glibc がおかしい。ログは後でメモする。
 
 #### webkit の場合
 
